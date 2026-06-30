@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  font-family: 'Ｈelvetica Neue',　Arial, sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.page img {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.page img.myp{
+  width: 30%;
+}
+
+.box{
+  display: flex;
+  margin-bottom:50px;
+}
+
+.box p{
+  margin-right:50px
+}
+
+.box img{
+  max-width:50%;
+} 
+
+h2{
+  padding: 0.5em;
+  color: #010101;
+  background: #eaf3ff;
+  border-bottom: solid 3px #516ab6;
+
+}
